@@ -13,7 +13,7 @@ def home():
 <p>A prototype API for detecting tweets containing fake news.</p>"""
 
 
-@app.route("/api/v1", methods=["GET"])
+@app.route("/api/v1", methods=["GET","POST"])
 def checkFake():
 
     global response
